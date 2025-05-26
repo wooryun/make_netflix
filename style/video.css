@@ -1,0 +1,45 @@
+.movie-list {
+    top: 300px;
+    position: relative;
+}
+
+.grid-movie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 50px;
+    padding: 50px 50px 50px;
+}
+
+.grid-movie-container img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.grid-movie-container img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.drama-list {
+    top: 260px;
+    position: relative;
+}
+
+.grid-drama-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 50px;
+    padding: 50px 50px 50px;
+}
+
+.grid-drama-container img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.grid-drama-container img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
